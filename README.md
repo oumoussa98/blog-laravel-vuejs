@@ -4,11 +4,14 @@ it's my first simple blog that i built and my first project with laravel and vue
 it may containe erros or mess coding
 i'm still learning new things and i'll upgrade it as much as i can
 
-## how to set the database
-create a new database and call it blog
+## set up
+1: install node modules
+2: create a new database and call it blog
 then use composeer cli and run commande "php artisan migrate"
 or you can set the your database connection and other settings from .env file
-
+3: <h5>create a shortcut for storage folder in the public folder
+    or run the command "php artisan storage:link" </h5>
+4: run this commands "npm run dev" && "php artisan serve"
 
 
 
